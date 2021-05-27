@@ -34,7 +34,7 @@ const UseEffect = (props) => {
             <div className="center">
                 <div>
                     <span className="text">Fatorial: </span>
-                    <span className="text red">{(factorial == -1) ? "Erro" : factorial}</span>
+                    <span className="text red">{(factorial === -1) ? "Erro" : factorial}</span>
                 </div>
                 <input type="number" className="input" placeholder="Insira o valor"
                     value={number} onChange={e => setNumber(e.target.value)} />
